@@ -7,6 +7,9 @@ import WhoAreYou from './components/WhoAreYou.vue'
 import Contact from './components/Contact.vue'
 import {createRouter, createWebHistory} from 'vue-router'
 
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const routes = [
     {path: '/privacypolicy', component: PrivacyPolicy},
     {path: '/whoareyou', component: WhoAreYou},
