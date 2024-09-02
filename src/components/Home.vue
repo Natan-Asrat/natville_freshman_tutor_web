@@ -5,8 +5,11 @@
       <div class="col-md-6 d-flex flex-column justify-content-center">
         <h1 class="display-4">Natville Tutor</h1>
         <p class="lead">This is my gift to you all who mainly are joining campus as Freshman. I have covered Logic and Critical Thinking, Psychology, and Applied Mathematics One in my tutorials. Access the videos by downloading my app on play store below! Thank you!</p>
-        <a href="https://play.google.com/store/apps/details?id=com.emicasolutions.natvillefreshmantutor_inamharic" target="_blank">
+        <a class="d-none" href="https://play.google.com/store/apps/details?id=com.emicasolutions.natvillefreshmantutor_inamharic" target="_blank">
           <img src="/play.png" alt="Download on Play Store" class="img-fluid mt-3" style="max-width: 50%;"/>
+        </a>
+        <a href="https://drive.google.com/file/d/1FYJtnMgwszX_Q_AWGkcNEZVWr3R2Ws0N/view?usp=sharing" target="_blank">
+          <img src="/download_apk.png" alt="Download APK" class="img-fluid mt-3" style="max-width: 50%;"/>
         </a>
       </div>
 
