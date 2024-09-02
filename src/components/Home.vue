@@ -15,6 +15,18 @@
 
       <!-- Screenshots Section (Right Column) -->
       <div class="col-md-6">
+      <div class="row">
+          <div class="col-12 mb-4 justify-content-between screenshots">
+            <img src="/choose_playlist_mockup.png" alt="Screenshot 1" class="img-fluid screenshot screenshot-t"/>
+            <img src="/logic_mockup.png" alt="Screenshot 2" class="img-fluid screenshot screenshot-b" />
+            <img src="/maths_mockup.png" alt="Screenshot 3" class="img-fluid screenshot screenshot-t"/>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-12 mb-4 justify-content-between screenshots">
+            <img src="/playing_mockup.png" alt="Screenshot 3" class="img-fluid screenshot-w screenshot-t"/>
+          </div>
+        </div>
       </div>
       
     </div>
@@ -55,9 +67,18 @@
   position: relative;
 }
 
+.screenshot-w{
+  height: auto;
+  width: 80%;
+  margin-left: 20px;
+  object-fit: fit;
+  margin-bottom: 10px; /* Adjust spacing between screenshots */
+  border-radius: 10px; /* Optional: Rounded corners for screenshots */
+}
+
 .screenshot {
   height: auto;
-  width: 20%;
+  width: 25%;
   margin-left: 20px;
   object-fit: fit;
   margin-bottom: 10px; /* Adjust spacing between screenshots */
